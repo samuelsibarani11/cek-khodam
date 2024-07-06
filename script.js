@@ -50,7 +50,9 @@ function checkKhodam() {
             } else if (name.toLowerCase().includes('dimas')) {
                 khodam = "hinoa";
             } else if (name.toLowerCase().includes('andrew')) {
-                khodam = "kobokane";
+                khodam = "kobo kanaeru";
+            } else if (name.toLowerCase().includes('adam')) {
+                khodam = "ricardo milos";
             }
             else {
                 const randomIndex = Math.floor(Math.random() * khodams.length);
