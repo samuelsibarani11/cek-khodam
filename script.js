@@ -53,6 +53,8 @@ function checkKhodam() {
                 khodam = "kobo kanaeru";
             } else if (name.toLowerCase().includes('adam')) {
                 khodam = "ricardo milos";
+            } else if (name.toLowerCase().includes('samuel')) {
+                khodam = "Tuhan Yesus";
             }
             else {
                 const randomIndex = Math.floor(Math.random() * khodams.length);
